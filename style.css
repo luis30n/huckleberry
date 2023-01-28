@@ -11,38 +11,67 @@ body {
   padding: 0;
 }
 
-main {
-  background-color: #666666;
-  border-top: #999999 solid 8px;
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 3rem;
 }
-.intro-chunk {
-  max-width: 415px;
+
+header {
+  border-bottom: #999999 solid 8px;
 }
+
 .max-width-wrapper {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.intro-chunk {
+  max-width: 410px;
+}
+
+main {
+  background-color: #666666;
   padding-top: 72px;
   padding-bottom: 72px;
 }
+
+p {
+  line-height: 1.875rem;
+  font-size: 1.25rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 .card {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 1px;  
-  padding-bottom: 24px;
   background-color: white;
+  font-weight: 500;
+  padding: 24px;
+  padding-top: 8px;
+  margin: 0 -24px;
   border-bottom: #999999 solid 8px;
 }
+
 .intro-chunk {
-  padding-left: 24px;
-}
-.indented-heading {
-  background-color: #FFBF00;
-  max-width: fit-content;
-  margin-left: -32px;
-  padding: 16px 32px;
-  margin-top: 8px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+
 }
 
 strong {
   color: #009966;
+}
+
+.indented-heading {
+  width: fit-content;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 16px 32px;
+  background-color: #FFBF00;
+  margin-left: -32px;
 }
